@@ -1,5 +1,5 @@
 """ 
-    Title: mongodb_test.py
+    Title: pytech_insert.py
     Author: Sam Paye
     Date: 03 July 2022
     Description: Test program for connecting to a 
