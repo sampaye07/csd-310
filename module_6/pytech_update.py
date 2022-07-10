@@ -34,13 +34,13 @@ for doc in student_list:
 result = students.update_one({"student_id": "1007"}, {"$set": {"last_name": "Oakenshield II"}})
 
 # find the updated student document 
-thorin = students.find_one({"student_id": "1007"})
+Thorin = students.find_one({"student_id": "1007"})
 
 # display message
 print("\n  -- DISPLAYING STUDENT DOCUMENT 1007 --")
 
 # output the updated document to the terminal window
-print("  Student ID: " + thorin["student_id"] + "\n  First Name: " + thorin["first_name"] + "\n  Last Name: " + thorin["last_name"] + "\n")
+print("  Student ID: " + Thorin["student_id"] + "\n  First Name: " + Thorin["first_name"] + "\n  Last Name: " + Thorin["last_name"] + "\n")
 
 # exit message 
 input("\n\n  End of program, press any key to continue...")
